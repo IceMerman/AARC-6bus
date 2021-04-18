@@ -97,7 +97,7 @@ This code is provided under a BSD license as part of DEMIERI project.
 
 [Colciencias](https://colciencias.gov.co)  
 
-![alt tag](https://www.colciencias.gov.co/sites/default/files/logo_colciencias_png.png)
+![alt tag](https://minciencias.gov.co/sites/default/files/logo-minciencias_1.png)
 
 ![alt tag](https://github.com/IceMerman/TransformerSoltion/blob/master/logoUDEA.png)
 
