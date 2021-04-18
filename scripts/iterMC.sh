@@ -1,0 +1,26 @@
+#!/bin/sh
+/opt/gams/gamsdir/gams MonteCarlo --past=1 &
+/opt/gams/gamsdir/gams MonteCarlo --past=2 &
+/opt/gams/gamsdir/gams MonteCarlo --past=3 &
+/opt/gams/gamsdir/gams MonteCarlo --past=4 &
+/opt/gams/gamsdir/gams MonteCarlo --past=5 &
+/opt/gams/gamsdir/gams MonteCarlo --past=6 &
+/opt/gams/gamsdir/gams MonteCarlo --past=7 &
+/opt/gams/gamsdir/gams MonteCarlo --past=8 &
+/opt/gams/gamsdir/gams MonteCarlo --past=9 &
+/opt/gams/gamsdir/gams MonteCarlo --past=10 &
+/opt/gams/gamsdir/gams MonteCarlo --past=11 &
+/opt/gams/gamsdir/gams MonteCarlo --past=12 &
+/opt/gams/gamsdir/gams MonteCarlo --past=13 &
+/opt/gams/gamsdir/gams MonteCarlo --past=14 &
+/opt/gams/gamsdir/gams MonteCarlo --past=15 &
+/opt/gams/gamsdir/gams MonteCarlo --past=16 &
+/opt/gams/gamsdir/gams MonteCarlo --past=17 &
+/opt/gams/gamsdir/gams MonteCarlo --past=18 &
+/opt/gams/gamsdir/gams MonteCarlo --past=19 &
+/opt/gams/gamsdir/gams MonteCarlo --past=20 &
+/opt/gams/gamsdir/gams MonteCarlo --past=21 &
+/opt/gams/gamsdir/gams MonteCarlo --past=22 &
+/opt/gams/gamsdir/gams MonteCarlo --past=23 &
+/opt/gams/gamsdir/gams MonteCarlo --past=24 &
+/opt/gams/gamsdir/gams MonteCarlo --past=25
