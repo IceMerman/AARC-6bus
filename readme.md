@@ -79,7 +79,7 @@ scripts/readGDX.py: script to extract data from a set of gdx files.
 
 If you use this material, please refer to:  
 
-[Autors, “A New Affinely Adjustable Robust Model forSecurity Constrained Unit Commitment UnderUncertainty,”Energies, vol. xx, no. x, 2021.](https://www.mdpi.com/xxxx-xxxx/xx/x/xxxx)
+[Sierra-Aguilar, Juan E.; Marín-Cano, Cristian C.; López-Lezama, Jesús M.; Jaramillo-Duque, Álvaro; Villegas, Juan G. 2021. "A New Affinely Adjustable Robust Model for Security Constrained Unit Commitment under Uncertainty" Appl. Sci. 11, no. 9: 3987.](https://www.mdpi.com/2076-3417/11/9/3987)
 
 ## Clarification
 
