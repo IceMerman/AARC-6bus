@@ -1,5 +1,6 @@
 import pandas as pd
 from matplotlib import pyplot as plt
+from matplotlib import ticker
 
 plt.style.use(['science', 'vibrant', 'grid', 'no-latex']) # 'bright', 'vibrant', 'ieee', 'grid', 'notebook', 'dark_background', 'high-vis'
 plt.rcParams['figure.figsize'] = (8, 5)# largo, ancho
@@ -18,6 +19,8 @@ df['TimeNP'] = df2.TimeNP
 
 fig, ax1 = plt.subplots()
 
+ax1.yaxis.set_major_formatter(ticker.StrMethodFormatter('{x:,.0f}'))
+
 color = '#007FFF'
 ax1.set_xlabel(r'Past time periods')
 ax1.set_ylabel('OF [USD]') #, color=color
@@ -32,6 +35,8 @@ ax1.set_xticklabels([fr'$t - {i} \leq \tau$' for i in df.Tau], rotation=90)
 legend1 = ax1.legend(labels = ['FO [USD]'], loc='lower right', shadow=False)
 
 ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+
+ax1.yaxis.set_major_formatter(ticker.StrMethodFormatter('{x:,.0f}'))
 
 color = '#FF7F00'
 ax2.set_ylabel('Run time [s]') #, color=color  # we already handled the x-label with ax1
@@ -50,6 +55,6 @@ ax1.legend(lns, labs, loc='lower right')
 
 #legend2 = ax2.legend(labels = ['Time [s]'], loc='center right', shadow=False)
 
-plt.savefig('6bus_FO_Tau.svg')
+plt.savefig('6bus_FO_Tau.pdf')
 plt.close()
 #plt.show()
