@@ -698,11 +698,8 @@ PlaneRownr=-1
 
 [OPENWINDOW_1]
 FILE0=D:\Usuarios\Juanes\Documents\GitHub\AARC-6bus\AARC.gms
-FILE1=D:\Usuarios\Juanes\Documents\GitHub\AARC-6bus\AARC.lst
-FILE2=D:\Usuarios\Juanes\Documents\GitHub\AARC-6bus\MonteCarlo.gms
-FILE3=D:\Usuarios\Juanes\Documents\GitHub\AARC-6bus\MonteCarlo.lst
-FILE4=D:\Usuarios\Juanes\Documents\GitHub\AARC-6bus\SIM_past1.gdx
-FILE5=D:\Usuarios\Juanes\Documents\GitHub\AARC-6bus\MonteCarlo.gms
+FILE1=D:\Usuarios\Juanes\Documents\GitHub\AARC-6bus\MonteCarlo.gms
+FILE2=D:\Usuarios\Juanes\Documents\GitHub\AARC-6bus\AARC.gms
 MAXIM=1
 TOP=0
 LEFT=958
